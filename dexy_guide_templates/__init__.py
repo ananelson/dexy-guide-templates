@@ -6,7 +6,7 @@ template_dir = os.path.dirname(__file__)
 n = len([f for f in os.listdir(template_dir) if f.endswith("-template")])
 
 for i in xrange(n):
-    key = "t%02d" % i
+    key = "gs-%02d" % i
     if not key in Template.plugins:
         args = {
                 'help' : "Help for %s" % key,

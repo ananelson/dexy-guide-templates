@@ -22,7 +22,7 @@ setup(
         description='Templates for the Dexy Guide, including Getting Started.',
         include_package_data = True,
         install_requires = [
-            'dexy>=0.9.9.5'
+            'dexy>=0.9.9.4'
             ],
         name='dexy_guide_templates',
         packages=find_packages(),
