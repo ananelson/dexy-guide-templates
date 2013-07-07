@@ -19,13 +19,13 @@ setup(
             "Topic :: Text Processing :: Markup :: HTML",
             "Topic :: Text Processing :: Markup :: LaTeX"
             ],
-        description='Templates for the Getting Started dexy examples.',
+        description='Templates for the Dexy Guide, including Getting Started.',
         include_package_data = True,
         install_requires = [
-            'dexy>=0.9.7'
+            'dexy>=0.9.9.5'
             ],
-        name='dexy_getting_started',
+        name='dexy_guide_templates',
         packages=find_packages(),
         url='http://dexy.it',
-        version="0.0.1"
+        version="0.0.3"
         )
