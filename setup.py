@@ -27,5 +27,5 @@ setup(
         name='dexy_guide_templates',
         packages=find_packages(),
         url='http://dexy.it',
-        version="0.0.4"
+        version="0.0.5"
         )
