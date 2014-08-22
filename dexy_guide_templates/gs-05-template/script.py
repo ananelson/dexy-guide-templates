@@ -1,2 +1,5 @@
-for i in range(0, 5):
-    print i
+from cmath import phase
+
+print phase(complex(-1.0, 0.0))
+
+
